@@ -37,5 +37,13 @@ backup            trybe_renamed.txt
 ➜  backup git:(ex/1.3) ✗ ls
 trybe_backup.txt
 ```
+```bash
+➜  backup git:(ex/1.3) ✗ # exercício 7
+➜  backup git:(ex/1.3) ✗ cd ..
+➜  unix_tests git:(ex/1.3) ✗ mkdir backup2
+➜  unix_tests git:(ex/1.3) ✗ ls
+backup            backup2           trybe_renamed.txt
+```
+
 
 
