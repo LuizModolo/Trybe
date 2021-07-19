@@ -67,9 +67,68 @@ To github.com:LuizModolo/Trybe.git
 Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-changes' from 'origin'.
 ```
 ### exercicio 5
-```bash
-Parte feita no GitHub
-```
+
+
 ### exercicio 6
 ```bash
+➜  bloco-2-Git-GitHub-e-Internet git:(trybe-skills-changes) git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+```
+### exercicio 7
+```bash
+➜  bloco-2-Git-GitHub-e-Internet git:(main) git branch
+* main
+  trybe-skills-changes
+(END)
+➜  bloco-2-Git-GitHub-e-Internet git:(main) cd dia-2-Git-e-GitHub-entendendo-os-comandos 
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(main) ls
+exercicios.md
+```
+### exercicio 8
+```bash
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(main) git checkout -b trybe-skills-updates
+Switched to a new branch 'trybe-skills-updates'
+```
+### exercicio 9
+```bash
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) ✗ cat >> trybe-skills-change.txt 
+- Softskills
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) ✗ cat trybe-skills-change.txt 
+O que eu vou aprender na Trybe:
+
+- Unix
+- Bash
+- Git
+- Softskills
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) ✗ git add trybe-skills-change.txt 
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) ✗ git status 
+On branch trybe-skills-updates
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   trybe-skills-change.txt
+
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) ✗ git commit -m "adicionando skills"
+[trybe-skills-updates c27ab9a] adicionando skills
+ 1 file changed, 6 insertions(+)
+ create mode 100644 fundamentos/bloco-2-Git-GitHub-e-Internet/dia-2-Git-e-GitHub-entendendo-os-comandos/trybe-skills-change.txt
+➜  dia-2-Git-e-GitHub-entendendo-os-comandos git:(trybe-skills-updates) git push -u origin trybe-skills-updates
+Enter passphrase for key '/Users/luizmodolo/.ssh/id_rsa': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 551 bytes | 551.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'trybe-skills-updates' on GitHub by visiting:
+remote:      https://github.com/LuizModolo/Trybe/pull/new/trybe-skills-updates
+remote: 
+To github.com:LuizModolo/Trybe.git
+ * [new branch]      trybe-skills-updates -> trybe-skills-updates
+Branch 'trybe-skills-updates' set up to track remote branch 'trybe-skills-updates' from 'origin'.
+```
+# exercicio 10
+
 
