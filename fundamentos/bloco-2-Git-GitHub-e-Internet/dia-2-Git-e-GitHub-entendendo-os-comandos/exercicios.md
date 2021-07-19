@@ -67,8 +67,7 @@ To github.com:LuizModolo/Trybe.git
 Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-changes' from 'origin'.
 ```
 ### exercicio 5
-
-<img src="/Users/luizmodolo/Pictures/img_trybe/01.png">
+Print nas anotações do Notion
 
 ### exercicio 6
 ```bash
@@ -131,5 +130,5 @@ To github.com:LuizModolo/Trybe.git
 Branch 'trybe-skills-updates' set up to track remote branch 'trybe-skills-updates' from 'origin'.
 ```
 ### exercicio 10
-
+Print nas anotações do Notion
 
