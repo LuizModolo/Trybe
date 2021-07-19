@@ -68,6 +68,7 @@ Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-change
 ```
 ### exercicio 5
 
+![](/Users/luizmodolo/Pictures/img_trybe/01.png)
 
 ### exercicio 6
 ```bash
@@ -129,6 +130,6 @@ To github.com:LuizModolo/Trybe.git
  * [new branch]      trybe-skills-updates -> trybe-skills-updates
 Branch 'trybe-skills-updates' set up to track remote branch 'trybe-skills-updates' from 'origin'.
 ```
-# exercicio 10
+### exercicio 10
 
 
