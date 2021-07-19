@@ -68,7 +68,7 @@ Branch 'trybe-skills-changes' set up to track remote branch 'trybe-skills-change
 ```
 ### exercicio 5
 
-![](/Users/luizmodolo/Pictures/img_trybe/01.png)
+<img src="/Users/luizmodolo/Pictures/img_trybe/01.png">
 
 ### exercicio 6
 ```bash
