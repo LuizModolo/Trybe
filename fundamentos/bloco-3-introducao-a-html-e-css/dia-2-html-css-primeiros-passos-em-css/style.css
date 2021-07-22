@@ -1,0 +1,33 @@
+body {
+    font-size: 16px;
+    background-color: black;
+    font-family: monospace;
+  }
+  h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-align: center;
+  }
+  ul {
+    background-color: beige;
+    line-height: 30px;
+  }
+  .corfav {
+    background-color: beige;
+  }
+  p{
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+  }
+  #am {
+    background-color: yellow;
+  }
+  #verm {
+    background-color: red;
+  }
+  #marr {
+    background-color: brown;
+  }
