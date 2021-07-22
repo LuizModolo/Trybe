@@ -4,15 +4,38 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+      body {
+        font-size: 16px;
+        background-color: black;
+        font-family: monospace;
+      }
       h1 {
-        size: 65px;
+        font-size: 65px;
         color: orange;
+        font-family: sans-serif;
+        text-decoration: underline;
+        text-align: center;
       }
       ul {
-        background-color: bisque;
+        background-color: beige;
+        line-height: 30px;
       }
       .corfav {
-        background-color: cadetblue;
+        background-color: beige;
+      }
+      p{
+        font-weight: 600;
+        font-size: 3em;
+        text-align: center;
+      }
+      #am {
+        background-color: yellow;
+      }
+      #verm {
+        background-color: red;
+      }
+      #marr {
+        background-color: brown;
       }
     </style>
   </head>
@@ -20,9 +43,9 @@
     <h1>Exercícios 3.2</h1>
     <p class="corfav">Qual é a sua cor favorita?</p>
     <ul class="corfav">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="am">Amarelo</li>
+      <li id="verm">Vermelho</li>
+      <li id="marr">Marrom</li>
     </ul>
   </body>
 </html>
