@@ -1,0 +1,51 @@
+ol li {
+    background-color: yellow;
+    font-weight: bold;
+}
+ol li:nth-child(even){
+    color:green;
+}
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+.titulos {
+    color: red;
+}
+h1.titulos {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+ul.ling li:nth-of-type(1){
+    color: blue;
+}
+ul.ling li:nth-of-type(2){
+    color: blue;
+    background-color: pink;
+}
+ul.ling li:nth-of-type(3){
+    color: blue;
+    background-color: pink;
+}
+ul.sites li:nth-of-type(1):hover {
+    font-weight: bold;
+    background-color: orange;
+}
+ul.sites li:nth-of-type(2):hover {
+    font-weight: bold;
+    background-color:green;
+}
+ul.sites li:nth-of-type(3):hover {
+    font-weight: bold;
+    background-color:black;
+}
+ul.sites li:nth-of-type(4):hover {
+    font-weight: bold;
+    background-color: yellow;
+}
+ul.sites li:nth-of-type(5):hover {
+    font-weight: bold;
+    background-color: green;
+}
