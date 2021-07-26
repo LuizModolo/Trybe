@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: #003566;
+    color: #ffd60a;
+    padding: 8px;
+}
+header h1 {
+    margin-left: 40px;
+}
+.menu {
+    background-color: #001d3d;
+    margin: 0px 0px 0px 0px;
+}
+.menu li {
+    display: inline-block;
+    margin: 10px;
+}
+.menu li a {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+.menu li:hover {
+    font-weight: bolder;
