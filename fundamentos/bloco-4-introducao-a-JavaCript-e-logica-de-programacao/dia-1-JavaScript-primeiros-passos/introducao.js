@@ -1,6 +1,6 @@
 const myName = "Luiz Fernando Christianini Módolo";
-const birthCity = Campinas;
-birthCity = Americana;
+const birthCity = "Campinas";
+birthCity = 'Americana';
 let birthYear = 1988;
 birthYear = 2030
 
@@ -25,3 +25,14 @@ console.log(typeof isEnrolled);
 console.log(typeof patientInfo);
 console.log(typeof patientEmail);
 console.log(typeof patientAge);
+
+let base = 5;
+let altura = 8;
+
+let area = base * altura;
+
+console.log(area);
+
+let perimetro = 2 * base + 2 * altura;
+
+console.log(perimetro);
