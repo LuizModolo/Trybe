@@ -1,3 +1,5 @@
+// Parte 1 Variáveis
+
 const myName = "Luiz Fernando Christianini Módolo";
 const birthCity = "Campinas";
 birthCity = 'Americana';
@@ -11,6 +13,8 @@ console.log(birthYear);
 console.log(birthYear);
 
 console.log(birthCity);
+
+// Parte 2 Tipos Primitivos e Operações
 
 let patientId = 50;
 let isEnrolled = true;
@@ -36,3 +40,17 @@ console.log(area);
 let perimetro = 2 * base + 2 * altura;
 
 console.log(perimetro);
+
+// Parte 3 If e Else
+
+let nota1 = 77;
+nota1 = 97;
+nota1 = 57;
+
+if (nota1 >= 80){
+  console.log('Parabéns, você foi aprovado!');
+} else if (nota1 < 80 && nota1 >= 60) {
+  console.log('Você está na nossa lista de espera');
+} else {
+  console.log('Você foi reprovado.');
+}
