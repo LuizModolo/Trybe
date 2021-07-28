@@ -2,7 +2,7 @@
 
 const myName = "Luiz Fernando Christianini Módolo";
 const birthCity = "Campinas";
-birthCity = 'Americana';
+// birthCity = 'Americana';
 let birthYear = 1988;
 birthYear = 2030
 
@@ -53,4 +53,27 @@ if (nota1 >= 80){
   console.log('Você está na nossa lista de espera');
 } else {
   console.log('Você foi reprovado.');
+}
+
+// Parte 4 Switch e Case
+
+let status = 'aprovada';
+status = 'lista';
+status = 'reprovada';
+
+switch (status) {
+  case 'aprovada':
+    console.log('Parabéns, você foi aprovado!');
+    break;
+
+  case 'lista':
+    console.log('Você está na nossa lista de espera');
+    break;
+
+  case 'reprovada':
+    console.log('Você foi reprovado.');
+    break;
+
+  default:
+    console.log('não se aplica');
 }
