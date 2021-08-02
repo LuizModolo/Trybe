@@ -89,6 +89,24 @@ function module(num1, num2){
 
 console.log(sum(a, b), sub(a, b), multip(a, b), division(a, b), module(a, b))
 
+function calculator(num1, num2, operator){
+  if (operator === '+'){
+    return num1 + num2;
+  } else if (operator === '-'){
+    return num1 - num2;
+  } else if (operator === '*'){
+    return num1 * num2;
+  } else if (operator === '/'){
+    return num1 / num2;
+  } else if (operator === '%'){
+    return num1 % num2;
+  } else {
+    return 'error'
+  }
+}
+
+console.log(calculator(a, b, "+"))
+
 // 2 e 3. Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
 
 function max(a, b, c){
