@@ -1,15 +1,15 @@
 // 3- Agora inverta o lado do triângulo. Por exemplo:
 
 let n = 5;
-let space = "";
+let string = "";
 
 for (let index = 1 ; index <= n ; index += 1){
-    for (let line = 0; line < n - index; line += 1){
-    space += " ";
+    for (let space = 0; space < n - index; space += 1){
+    string += " ";
     } 
-    for (let line = 0; line < index ; line += 1){
-    space += "*";
+    for (let asterisk = 0; asterisk < index ; asterisk += 1){
+    string += "*";
     }
-    console.log(space)
-    space = "";
+    console.log(string)
+    string = "";
 }

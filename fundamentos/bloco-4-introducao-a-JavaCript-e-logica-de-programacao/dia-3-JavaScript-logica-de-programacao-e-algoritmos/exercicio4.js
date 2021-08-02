@@ -1,30 +1,30 @@
 // 4- Depois, faça uma pirâmide com n asteriscos de base:
 
-let n = 7;
-let space = "";
-let z;
+let baseFig = 7;
+let string = "";
+let asterisk;
 let altura;
 
-if (n %2 !== 0){
-    z = 1;
-    altura = (n + 1)/2
+if (baseFig %2 !== 0){
+    asterisk = 1;
+    altura = (baseFig + 1)/2
 } else {
-    z = 2
-    altura = n/2
+    asterisk = 2
+    altura = baseFig/2
 }
 
 for (let index = 0 ; index < altura ; index += 1){
-    let y = n - z;
-    for (let line = 0; line < y/2; line += 1){
-    space += " ";
+    let space = baseFig - asterisk;
+    for (let line = 0; line < space/2; line += 1){
+    string += " ";
     } 
-    for (let line = 0; line < z ; line += 1){
-    space += "*";
+    for (let line = 0; line < asterisk ; line += 1){
+    string += "*";
     }
-    for (let line = 0; line < y/2; line += 1){
-    space += " ";
+    for (let line = 0; line < space/2; line += 1){
+    string += " ";
     }
-    console.log(space)
-    space = "";
-    z += 2
+    console.log(string)
+    string = "";
+    asterisk += 2
 }
