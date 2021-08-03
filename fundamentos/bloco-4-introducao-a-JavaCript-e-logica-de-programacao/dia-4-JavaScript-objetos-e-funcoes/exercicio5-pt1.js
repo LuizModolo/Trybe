@@ -18,6 +18,10 @@ let infoB = {
     recorrente: "sim",
   };
 
-  for (let index in info, infoB){
-      console.log(info[index] + ' e ' + infoB[index])
+  for (let index in info){
+      if (info[index] === infoB[index] && index === 'recorrente'){
+          console.log('Ambos recorrentes.') 
+      } else {
+        console.log(info[index] + ' e ' + infoB[index])
+      }
   }
