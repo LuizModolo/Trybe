@@ -25,6 +25,27 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML Semântico_
-- [ ] 3-5: _Projeto - Lessons Learned_
+- [x] 3-3: _HTML & CSS - Seletores e posicionamento_
+- [x] 3-4: _HTML Semântico_
+- [x] 3-5: _Projeto - Lessons Learned_
+
+##### Bloco 4: Introdução à JavaScript e Lógica de Programação
+
+- [x] 4-1: _JavaScript - Primeiros passos_
+- [x] 4-2: _JavaScript - Array e loop For_
+- [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [x] 4-4: _JavaScript - Objetos e funções_
+- [ ] 4-5: _Projeto - Playground Functions_
+
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+
+- [ ] 5-1: _JavaScript - DOM e seletores_
+- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ ] 5-3: _JavaScript - Eventos_
+- [ ] 5-4: _JavaScript - Web Storage_
+- [ ] 5-5a: _Fundamentos - JavaScript - Projetos_
+- [ ] 5-5b: _Projeto - Arte com Pixels_
+- [ ] 5-6: _Projeto - Lista de tarefas_
+- [ ] 5-7a: _Bônus - Projeto - Meme Generator_
+- [ ] 5-7b: _Bônus - Projeto - Advinhe a Cor_
+- [ ] 5-7c: _Bônus - Projeto - Carta Misteriosa_
