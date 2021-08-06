@@ -1,3 +1,5 @@
+// 8. Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+
 let numA = 77
 let numB = 55
 let numC = 70

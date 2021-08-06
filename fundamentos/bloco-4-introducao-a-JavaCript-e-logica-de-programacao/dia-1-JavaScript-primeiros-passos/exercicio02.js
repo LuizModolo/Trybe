@@ -1,3 +1,5 @@
+// 2. Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
+
 let numA = 77
 let numB = 55
 numA = 32
