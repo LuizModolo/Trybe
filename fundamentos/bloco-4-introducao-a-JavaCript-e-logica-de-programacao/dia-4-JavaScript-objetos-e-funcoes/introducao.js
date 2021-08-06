@@ -122,5 +122,3 @@ function max(a, b, c){
 }
 
 console.log(max(77, 77, 32))
-
-
