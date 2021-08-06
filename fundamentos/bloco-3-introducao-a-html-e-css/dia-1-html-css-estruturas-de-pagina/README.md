@@ -16,6 +16,6 @@
 
 1. Fizemos um primeiro exercício de iniciar a contrução de um portfólio exemplo para treinar Skills de HTML e CSS. Esse portfólio vai ser atualizado nas aulas seguintes. 
 
-[a link](github.com/LuizModolo/LuizModolo.github.io)
+[a link](https://github.com/LuizModolo/LuizModolo.github.io)
 
 [a link](https://luizmodolo.github.io)
