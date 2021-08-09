@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p class="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p class="paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      let paragraph = document.getElementsByClassName("paragraph");
+      paragraph[0].style.color = "red";
+      document.getElementById('page-title').innerHTML = 'Senhor dos Anéis';
+      document.getElementsByClassName('paragraph')[1].innerHTML = 'Senhor dos Anéis é uma obra de arte. Uma obra que em filme já é espetacular, porém em livro é melhor ainda!'
+      document.getElementById('subtitle').innerHTML = 'Filme favorito do Luiz Fernando.'
+      document.getElementsByTagName('h4')[0].style.color = "blue"
+    </script>
+  </body>
+</html>
