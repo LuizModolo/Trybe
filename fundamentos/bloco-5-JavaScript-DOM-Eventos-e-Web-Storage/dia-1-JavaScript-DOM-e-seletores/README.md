@@ -14,6 +14,8 @@ PS: Esse são os arquivos de nome index.html
 
 6. Crie uma função que exiba o conteúdo de todas as tags 'p' no console.
 
+## Exercícios do conteúdo ##
+
 #### Parte II - Qual seletor usar? ####
 
 PS: Esse são os arquivos de nome conteudo-pt2a e 2b
