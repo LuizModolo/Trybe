@@ -20,8 +20,8 @@ primeiroFilhoDoFilhoDoFilho.id = 'primeiroFilhoDoFilhoDoFilho';
 // 4. A partir desse filho criado, acesse terceiroFilho.
 primeiroFilhoDoFilhoDoFilho.parentElement.parentElement.nextElementSibling
 
-// 5. Exercício da parte 3.
-//Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
+// Exercício da parte 3.
+// 1. Remova todos os elementos filhos de paiDoPai exceto pai , elementoOndeVoceEsta e primeiroFilhoDoFilho .
 
 elementoPai.removeChild(elementoPai.firstElementChild);
 elementoPai.removeChild(elementoPai.firstElementChild.nextElementSibling);
