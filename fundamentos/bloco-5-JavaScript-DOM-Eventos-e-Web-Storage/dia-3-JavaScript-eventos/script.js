@@ -147,7 +147,7 @@ function addTask (string) {
   createTag.innerHTML = string;
   tasksDiv.appendChild(createTag);
 }
-addTask('Cozinhar');
+addTask('Cozinhar:');
 
 // Exercício 8:
 // Implemente uma função que adiciona uma legenda com cor para a tarefa criada no exercício anterior. Esta função deverá receber como parâmetro uma string ("cor") e criar dinamicamente um elemento de tag <div> com a classe task .
@@ -171,28 +171,32 @@ createLegenda('red');
 let tarefa = document.querySelector('.task');
 
 function taskSelected (event) {
-  if (tarefa.className != 'task-selected') {
-    tarefa.className = 'task-selected'
+  if (event.target.className != 'task-selected') {
+    event.target.className = 'task-selected'
   } else {
-    tarefa.className = 'task'
+    event.target.className = 'task'
   }
 }
-
 tarefa.addEventListener('click', taskSelected);
 
 // Exercício 10:
 // Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
 // Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) .
 
-for (let i = 0; i < daysMonth.length; i += 1) {
-  daysMonth[i].addEventListener('click', addTaskDay);
-}
-
 function addTaskDay (event) {
-  if (tarefa.className = 'task-selected' && tarefa.style.color != 'red') {
-    event.target.style.color = 'red';
+  let tarefa2 = document.querySelector('.task-selected');
+  if (tarefa2) {
+    if (event.style.color != 'red') {
+      event.target.style.color = 'red';
+    } else {
+      event.target.style.color = 'rgb(119,119,119)';
+    }
   } else {
     event.target.style.color = 'rgb(119,119,119)';
   }
 };
+
+for (let i = 0; i < daysMonth.length; i += 1) {
+  daysMonth[i].addEventListener('click', addTaskDay);
+}
 
