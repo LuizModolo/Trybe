@@ -55,7 +55,7 @@ function createButtonHoliday(string) {
   let buttonFeriados = document.createElement('button');
   buttonFeriados.innerHTML = string;
   buttonDiv.appendChild(buttonFeriados);
-  buttonFeriados.id = 'btn-holiday'
+  buttonFeriados.id = 'btn-holiday';
 }
 createButtonHoliday('Feriados');
 
@@ -66,12 +66,14 @@ createButtonHoliday('Feriados');
 let buttonFeriados = document.querySelector('#btn-holiday'); 
 let holidayDays = document.querySelectorAll('.holiday');
 
-function changeColorButton (event) {
-  for (i = 0; i < holidayDays.length; i += 1) {
+function changeColorButton () {
+  for (let i = 0; i < holidayDays.length; i += 1) {
     if (holidayDays[i].style.backgroundColor != 'red') {
       holidayDays[i].style.backgroundColor = 'red';
+      holidayDays[i].style.color = 'white';
     } else {
       holidayDays[i].style.backgroundColor = 'rgb(238,238,238)';
+      holidayDays[i].style.color = '#777';
     }
   }
 }
@@ -88,7 +90,7 @@ function createButtonFriday(string) {
   let buttonSexta = document.createElement('button');
   buttonSexta.innerHTML = string;
   buttonDiv.appendChild(buttonSexta);
-  buttonSexta.id = 'btn-friday'
+  buttonSexta.id = 'btn-friday';
 }
 createButtonFriday('Sexta-feira');
 
@@ -104,9 +106,93 @@ function changeColorButton2 (event) {
   for (i = 0; i < fridayDays.length; i += 1) {
     if (fridayDays[i].innerText != 'SEXTOU!') {
       fridayDays[i].innerText = 'SEXTOU!';
+      fridayDays[i].style.color = 'red';
     } else {
       fridayDays[i].innerText = fridayArray[i];
+      fridayDays[i].style.color = '#777';
     }
   }
 }
 buttonSexta.addEventListener('click', changeColorButton2);
+
+// Exercício 6:
+// Implemente duas funções que criem um efeito de "zoom". Ao passar o ponteiro do mouse em um dia do mês no calendário, o texto desse dia deve aumentar e, quando o ponteiro do mouse sair do dia, o texto deve retornar ao tamanho original.
+// Dica - Propriedade: event.target .
+
+let daysContainer = document.querySelector('#days');
+let daysMonth = document.querySelectorAll('#days li');
+
+for (let i = 0; i < daysMonth.length; i += 1) {
+  daysMonth[i].addEventListener('mouseover', dayZoomIn);
+  daysMonth[i].addEventListener('mouseout', dayZoomOut);
+}
+
+function dayZoomIn (event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.margin = '-1px 0px'
+};
+
+function dayZoomOut (event) {
+  event.target.style.fontSize = '20px';
+  event.target.style.margin = '-1px 0px'
+}
+
+// Exercício 7:
+// Implemente uma função que adiciona uma tarefa personalizada ao calendário. A função deve receber como parâmetro a string com o nome da tarefa (ex: "cozinhar") e criar dinamicamente um elemento com a tag <span> contendo a tarefa.
+// O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .
+
+function addTask (string) {
+  let tasksDiv = document.querySelector('.my-tasks');
+  let createTag = document.createElement('span');
+  createTag.innerHTML = string;
+  tasksDiv.appendChild(createTag);
+}
+addTask('Cozinhar');
+
+// Exercício 8:
+// Implemente uma função que adiciona uma legenda com cor para a tarefa criada no exercício anterior. Esta função deverá receber como parâmetro uma string ("cor") e criar dinamicamente um elemento de tag <div> com a classe task .
+// O parâmetro cor deverá ser utilizado como cor de fundo da <div> criada.
+// O elemento criado deverá ser adicionado como filho/filha da tag <div> que possui a classe "my-tasks" .
+
+function createLegenda (string) {
+  let tasksDiv = document.querySelector('.my-tasks');
+  let createTagCor = document.createElement('div');
+  createTagCor.style.backgroundColor = string;
+  createTagCor.style.Color = 'black';
+  tasksDiv.appendChild(createTagCor);
+  createTagCor.className = 'task';
+}
+createLegenda('red');
+
+// Exercício 9:
+// Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected , ou seja, quando sua tarefa possuir a classe task selected , ela estará selecionada.
+// Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task , ou seja, esta tarefa está deixando de ser uma tarefa selecionada.
+
+let tarefa = document.querySelector('.task');
+
+function taskSelected (event) {
+  if (tarefa.className != 'task-selected') {
+    tarefa.className = 'task-selected'
+  } else {
+    tarefa.className = 'task'
+  }
+}
+
+tarefa.addEventListener('click', taskSelected);
+
+// Exercício 10:
+// Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+// Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119) .
+
+for (let i = 0; i < daysMonth.length; i += 1) {
+  daysMonth[i].addEventListener('click', addTaskDay);
+}
+
+function addTaskDay (event) {
+  if (tarefa.className = 'task-selected' && tarefa.style.color != 'red') {
+    event.target.style.color = 'red';
+  } else {
+    event.target.style.color = 'rgb(119,119,119)';
+  }
+};
+
