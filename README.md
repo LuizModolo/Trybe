@@ -35,17 +35,30 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [x] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _Projeto - Playground Functions_
+- [x] 4-5: _Projeto - Playground Functions_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5a: _Fundamentos - JavaScript - Projetos_
-- [ ] 5-5b: _Projeto - Arte com Pixels_
-- [ ] 5-6: _Projeto - Lista de tarefas_
-- [ ] 5-7a: _Bônus - Projeto - Meme Generator_
-- [ ] 5-7b: _Bônus - Projeto - Advinhe a Cor_
-- [ ] 5-7c: _Bônus - Projeto - Carta Misteriosa_
+- [x] 5-1: _JavaScript - DOM e seletores_
+- [x] 5-2: _JavaScript - Trabalhando com elementos_
+- [x] 5-3: _JavaScript - Eventos_
+- [x] 5-4: _JavaScript - Web Storage_
+- [x] 5-5a: _Fundamentos - JavaScript - Projetos_
+- [x] 5-5b: _Projeto - Arte com Pixels_
+- [x] 5-6: _Projeto - Lista de tarefas_
+
+##### Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo
+
+- [x] 6-1: _HTML e CSS - Forms_
+- [x] 6-2: _Bibliotecas JavaScript e Frameworks_
+- [x] 6-3: _CSS Flexbox - Parte 1_
+- [ ] 6-4: _CSS Flexbox - Parte 2_
+- [ ] 6-5: _CSS Responsivo - Mobile First_
+- [ ] 6-6: _Projeto - Trybewarts_
+
+##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
+
+- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [ ] 7-2: _JavaScript ES6 - Objects_
+- [ ] 7-3: _Testes unitários em JavaScript_
+- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
