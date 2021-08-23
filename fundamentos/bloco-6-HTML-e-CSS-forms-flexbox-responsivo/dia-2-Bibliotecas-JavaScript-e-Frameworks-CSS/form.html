@@ -11,15 +11,15 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 <body>
-    <form action="GET">
+    <form action="GET" class='js-form'>
             <div class="field column is-half">
                 <label class='result-title label' for="name-user">Nome Completo: </label>
-                <input required id="name" name="nome" type="text" class='result input is-rounded' placeholder="Rounded input" maxlength="40">
+                <input data-validate-field='name' id="name" name="nome" type="text" class='result input is-rounded' placeholder="Rounded input" maxlength="40">
                 <br>
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="email-user">E-mail: </label>
-                <input type="email" required id="email-user" class='result input is-rounded' placeholder="Rounded input" name="email" maxlength="50">
+                <input type="email" data-validate-field='email' id="email-user" class='result input is-rounded' placeholder="Rounded input" name="email" maxlength="50">
                 <br>
             </div>
             <div class="field column is-half">
@@ -115,6 +115,7 @@
         }
     });
     </script>
+    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
 </body>
 </html>
 
