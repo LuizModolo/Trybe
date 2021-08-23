@@ -14,11 +14,11 @@ body {
   display: flex;
 }
 
-/* PT1 - 1 - Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px . Após aplicar as propriedades o header deverá estar similar a imagem abaixo: (add 268px de basis)
+/* PT1 - 1 - Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px . (add 268px de basis)
 
-PT1 - 2 - Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela. Após aplicar a propriedade o header deverá estar similar a imagem abaixo: (add order -1)
+PT1 - 2 - Adicione uma propriedade Flexbox que modifique a ordem em que a logomarca e os itens do menu aparecem na tela. (add order -1)
 
-PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px . Após aplicar a propriedade o header deverá estar similar a imagem abaixo: (add grow de 1) */
+PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px . (add grow de 1) */
 
 .logo-container {
   display: flex;
@@ -27,9 +27,9 @@ PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do co
   order: -1;
 }
 
-/* PT1 - 1 - Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px . Após aplicar as propriedades o header deverá estar similar a imagem abaixo: (add 500px de basis)
+/* PT1 - 1 - Adicione uma propriedade que defina o tamanho Flexbox base para o container da imagem 268px e para o container do menu 500px . (add 500px de basis)
 
-PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px . Após aplicar a propriedade o header deverá estar similar a imagem abaixo: (add grow de 1) */
+PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do container do menu quando a largura da página for maior que 768px . (add grow de 1) */
 
 .menu-container {
   display: flex;
@@ -58,9 +58,9 @@ PT1 - 3 - Adicione uma propriedade Flexbox que modifique o tamanho padrão do co
   flex-wrap: wrap;
 }
 
-/* PT2 - 3 - Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar a imagem abaixo: (Add 700px em basis) 
+/* PT2 - 3 - Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. (Add 700px em basis) 
 
-PT2 - 4 - Aplique uma propriedade com o valor 10 que expanda o container de filmes. Deve ficar similar a imagem abaixo: (Add o grow para 10) */
+PT2 - 4 - Aplique uma propriedade com o valor 10 que expanda o container de filmes. (Add o grow para 10) */
 
 .movie-container {
   display: flex;
@@ -79,9 +79,9 @@ PT2 - 4 - Aplique uma propriedade com o valor 10 que expanda o container de film
   justify-content: space-around;
 }
 
-/* PT2 - 3 - Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. Deve ficar similar a imagem abaixo: (Add 16% em basis) 
+/* PT2 - 3 - Adicione uma propriedade que faça com que seu container de filmes tenha uma base de 700px e outra base de 16% para as div do container de seu card. (Add 16% em basis) 
 
-PT2 - 5 - Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe todo o espaço em branco. Deve ficar similar a imagem abaixo: (add 1 de grow) */
+PT2 - 5 - Adicione uma propriedade com o valor 1 que faça com que suas div do container de filmes ocupe todo o espaço em branco. (add 1 de grow) */
 
 .card-container div {
   align-items: center;
@@ -94,9 +94,9 @@ PT2 - 5 - Adicione uma propriedade com o valor 1 que faça com que suas div do c
   flex: 1 1 16%;
 }
 
-/* PT2 - 1 - Aplique uma base de 350px para seu container aside . Deverá ficar similar a imagem abaixo: (add 350 px em basis) 
+/* PT2 - 1 - Aplique uma base de 350px para seu container aside . (add 350 px em basis) 
 
-PT2 - 2 - Aplique um alinhamento para centralizar e outro para expandir. Seu aside apresentar o seguinte comportamento: (add align-self center e add grow de 1) */
+PT2 - 2 - Aplique um alinhamento para centralizar e outro para expandir. (add align-self center e add grow de 1) */
 
 .aside-container {
   display: flex;
