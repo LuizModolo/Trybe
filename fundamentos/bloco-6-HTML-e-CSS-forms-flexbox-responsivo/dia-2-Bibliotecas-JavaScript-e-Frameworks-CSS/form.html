@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
 <body>
-    <form action="GET" class='js-form'>
+    <form class='js-form form'>
             <div class="field column is-half">
                 <label class='result-title label' for="name-user">Nome Completo: </label>
                 <input data-validate-field='name' id="name" name="nome" type="text" class='result input is-rounded' placeholder="Rounded input" maxlength="40">
@@ -24,26 +24,26 @@
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="cpf-user">CPF: </label>
-                <input type="text" required id="cpf-user" class='result input is-rounded' placeholder="Rounded input" name="cpf" maxlength="11">
+                <input type="text" data-validate-field="cpf" id="cpf-user" class='result input is-rounded' maxlength="14" placeholder="Rounded input" name="cpf">
                 <br>
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="adress-user">Endereço Completo: </label>
-                <input type="text" class='result input is-rounded' placeholder="Rounded input" required id="adress-user" name="endereço" maxlength="200">
+                <input type="text" data-validate-field="text2" class='result input is-rounded' placeholder="Rounded input" id="adress-user" name="endereço">
                 <br>
             </div>
         <div class="field box2">
             <div class="field column is-one-quarter">
                 <label class='result-title label' for="city-user">Cidade: </label>
-                <input type="text" class='result input is-rounded' placeholder="Rounded input" required id="city-user" name="cidade" maxlength="28">
+                <input type="text" data-validate-field="text3" class='result input is-rounded' placeholder="Rounded input" id="city-user" name="cidade">
             </div>
             <div class="control">
                 <div class="field is-normal">
                     <label class='result-title label' for="state-user">Estado: </label>
                 </div>
                 <div class="select is-rounded cityState">
-                    <select name="estado" id="state-user" required class='result'>
-                        <option disabled selected value>Selecione o estado</option>
+                    <select name="estado" id="state-user" class='result'>
+                        <option disabled value id="estado-selecionado">Selecione o estado</option>
                         <!-- <option value="ac">Acre</option>
                         <option value="al">Alagoas</option>
                         <option value="ap">Amapá</option>
@@ -82,17 +82,17 @@
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="resum-user">Resumo do Currículo: </label>
-                <textarea required id="resum-user" name="resumo cv" class='result textarea' placeholder="e.g. Hello world" rows="10" cols="100" maxlength="1000" placeholder="Descreva sua tragetéria profissional até agora"></textarea>
+                <textarea id="resum-user" data-validate-field="text4" name="resumo cv" class='result textarea' placeholder="e.g. Hello world" rows="10" cols="100" maxlength="1000" placeholder="Descreva sua tragetéria profissional até agora"></textarea>
                 <br>
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="job-user">Cargo Atual: </label>
-                <input type="text" class='result input is-rounded' placeholder="Rounded input" required id="job-user" name="cargo" maxlength="40">
+                <input type="text" class='result input is-rounded' placeholder="Rounded input" data-validate-field="text5" id="job-user" name="cargo" maxlength="40">
                 <br>
             </div>
             <div class="field column is-half">
                 <label class='result-title label' for="jobdisc-user">Descrição do cargo: </label>
-                <input type="text" required id="jobdisc-user" class='result input is-rounded' placeholder="Rounded input" name="descrição do cargo" maxlength="500">
+                <input type="text" data-validate-field="text6" id="jobdisc-user" class='result input is-rounded' placeholder="Rounded input" name="descrição do cargo" maxlength="500">
                 <br>
             </div>
             <div class="field column is-half">
@@ -104,18 +104,18 @@
             <button id="clear-button" class="button is-danger is-rounded" type="button">Limpar</button>
         </div>
     </form>
-    <script src="script.js"></script>
-    <script src="pikaday.js"></script>
+    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
+    <script type="module" src="pikaday.js"></script>
     <script>
         var picker = new Pikaday({
-        field: document.getElementById('datepicker'),
-        format: 'D MMM YYYY',
-        onSelect: function() {
-            console.log(this.getMoment().format('Do MMMM YYYY'));
-        }
-    });
-    </script>
-    <script src="node_modules/just-validate/dist/js/just-validate.min.js"></script>
+            field: document.getElementById('datepicker'),
+            format: 'D MMM YYYY',
+            onSelect: function() {
+                console.log(this.getMoment().format('Do MMMM YYYY'));
+            }
+        });
+        </script>
+    <script src="script.js"></script>
 </body>
 </html>
 
