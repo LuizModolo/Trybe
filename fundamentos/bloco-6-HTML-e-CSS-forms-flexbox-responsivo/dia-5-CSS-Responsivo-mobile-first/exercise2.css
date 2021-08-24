@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'PT Sans', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header {
+  display: flex;
+  background-color: pink;
+  padding: 3% 5%;
+  height: 70px;
+  color: purple;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header li:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.aside-one {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.aside-one h2 {
+  background-color: purple;
+  padding: 12px;
+  color: pink;
+  font-size: 120%;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.aside-one ul {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 239, 241);
+  height: 260px;
+  justify-content: space-around;
+}
+
+.aside-one li {
+  padding: 2px;
+}
+
+.aside-one ul :nth-child(odd) {
+  background-color: white;
+}
+
+.aside-two {
+  text-align: center;
+  font-style: italic;
+  font-size: 85%;
+  padding-bottom: 10px;
+}
+
+.aside-two h2 {
+  padding: 8px 0;
+  background-color: purple;
+  color: pink;
+  font-size: 100%;
+  margin-bottom: 10px;
+}
+
+.aside-two ul {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.main-content h1 {
+  padding: 8px 0;
+  background-color: purple;
+  color: pink;
+  font-size: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main-content p {
+  padding: 8px 15px;
+}
+
+footer {
+  background-color: purple;
+  color: pink;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+footer h3 {
+  padding-bottom: 10px;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 550px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header p {
+    flex: 2 1 auto;
+    font-size: 115%;
+  }
+
+  header nav {
+    flex: 1 1 auto;
+  }
+
+  header nav ul {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 1100px) {
+
+  header {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+  }
+
+  header p {
+    flex: 1 1 auto;
+    font-size: 135%;
+  }
+
+  header nav {
+    flex: 1 1 auto;
+  }
+
+  header nav ul {
+    justify-content: space-evenly;
+  }
+
+  .aside-one li {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1101px) {
+
+  header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header p {
+    font-size: 135%;
+    margin-right: 100px;
+  }
+
+  header li {
+    margin-right: 30px;
+  }
+
+  .aside-one li {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .main-content p {
+    padding: 12px 20%;
+  }
+
+  footer p {
+    padding-left: 250px;
+    padding-right: 250px;
+  }
+}
