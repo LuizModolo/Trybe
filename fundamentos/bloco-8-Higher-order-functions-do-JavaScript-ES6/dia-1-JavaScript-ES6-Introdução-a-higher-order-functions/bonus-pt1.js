@@ -7,7 +7,7 @@ const mage = {
   healthPoints: 130,
   intelligence: 45,
   mana: 125,
-  damage: 0,
+  damage: 0
 };
 
 const warrior = {
@@ -82,12 +82,14 @@ const dragonTurn = (callback) => {
 
 const resultTurn = () => battleMembers;
 
-const gameActions = {
+const gameActions = () => ({
   // Crie as HOFs neste objeto.
   first: warriorTurn(warriorDamage),
   second: mageTurn(mageDmgMana),
   third: dragonTurn(dragonDamage),
   fourth: resultTurn(),
-};
+});
 
-console.log(Object.values(gameActions)[3]);
+while(mage.healthPoints > 0 && warrior.healthPoints > 0 && dragon.healthPoints > 0) {
+  console.table(gameActions().fourth);
+}
