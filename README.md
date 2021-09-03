@@ -52,13 +52,35 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 6-1: _HTML e CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks_
 - [x] 6-3: _CSS Flexbox - Parte 1_
-- [ ] 6-4: _CSS Flexbox - Parte 2_
-- [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _Projeto - Trybewarts_
+- [x] 6-4: _CSS Flexbox - Parte 2_
+- [x] 6-5: _CSS Responsivo - Mobile First_
+- [x] 6-6: _Projeto - Trybewarts_
 
 ##### Bloco 7: Introdução à JavaScript ES6 e Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitários em JavaScript_
-- [ ] 7-4: _Projeto - JavaScript Testes Unitários_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _Testes unitários em JavaScript_
+- [x] 7-4: _Projeto - JavaScript Testes Unitários_
+
+##### Bloco 8: Higher Order Functions do JavaScript ES6
+
+- [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
+- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
+- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [ ] 8-6: _Projeto - Zoo functions_
+
+##### Bloco 9: JavaScript Assíncrono e Promises
+
+- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
+- [ ] 9-2: _JavaScript Promises_
+- [ ] 9-3: _Projeto - Carrinho de Compras_
+
+##### Bloco 10: Testes automatizados com Jest
+
+- [ ] 10-1: _Primeiros passos no Jest_
+- [ ] 10-2: _Jest - Testes Assíncronos_
+- [ ] 10-3: _Jest - Simulando comportamentos_
+- [ ] 10-4: _Projeto - Jest Assíncrono e Mocking_
