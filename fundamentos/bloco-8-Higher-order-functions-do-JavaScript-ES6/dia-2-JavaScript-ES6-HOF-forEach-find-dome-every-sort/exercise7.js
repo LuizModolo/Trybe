@@ -71,6 +71,7 @@ const expectedResult = false;
 
 function authorUnique(arrayLivros) {
   // escreva seu código aqui
+  // A função some procura dois autores que tenham nascido no mesmo ano e se achar retorna um true, se ele não achar retorna um false. Nós invertemos o true para false e vice e versa para usar o every depois. O everey se receber o true (após a iversão) ele também retorna true, ou seja, caso nenhum tenha nascido no mesmo ano. E false caso tenha autores nascidos no mesmo dia.
   return arrayLivros.every((book) => !arrayLivros.some((bookTwo) => (bookTwo.author.birthYear === book.author.birthYear) && (bookTwo.author.name !== book.author.name)));
 }
 
