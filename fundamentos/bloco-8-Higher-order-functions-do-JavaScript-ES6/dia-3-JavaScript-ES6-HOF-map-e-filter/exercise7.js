@@ -65,23 +65,18 @@ const books = [
 
 // Adicione o código do exercício aqui:
 
-// 5 - Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+// 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 
-const expectedResult = [
-  'Frank Herbert',
-  'George R. R. Martin',
-  'Isaac Asimov',
-  'J. R. R. Tolkien',
-];
+const expectedResult = 'O Senhor dos Anéis';
 
-function fantasyOrScienceFictionAuthors(arrayBooks) {
+function authorWith3DotsOnName(arrayBooks) {
   // escreva seu código aqui
-  const arrayGenreFilter = arrayBooks.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
-  const arrayAuthorNames = arrayGenreFilter.map((book2) => book2.author.name);
-  const arrayNamesAb = arrayAuthorNames.sort();
-  return arrayNamesAb;
-}
+  const findBook = arrayBooks.find((book) => {
+    return book.author.name[7] === '.';
+  });
+  return findBook.name;
+};
 
-console.log(fantasyOrScienceFictionAuthors(books));
+console.log(authorWith3DotsOnName(books));
 
-assert.deepStrictEqual(fantasyOrScienceFictionAuthors(books), expectedResult);
+assert.deepStrictEqual(authorWith3DotsOnName(books), expectedResult);
