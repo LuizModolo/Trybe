@@ -10,8 +10,8 @@ const names = [
 
 function containsA(arrayNames) {
   // escreva seu código aqui
-  const group = arrayNames.reduce((acc, actual) => acc + actual).split('');
-  const count = group.reduce((acc2, actual2) => (actual2 === 'a' || actual2 === 'A') ? acc2 + 1 : acc2, 0)
+  const group = arrayNames.join('').toLowerCase().split('');
+  const count = group.reduce((acc2, actual2) => (actual2 === 'a') ? acc2 + 1 : acc2, 0)
   return count;
 };
 
