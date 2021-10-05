@@ -87,11 +87,11 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 
 ## Módulo 2 - Desenvolvimento Front-end :
 
-##### Bloco 10-A: Introdução à React
+##### Bloco 10-B: Introdução à React
 
-- [x] 10-1-A: _'Hello, world' no React_
-- [ ] 10-2-A: _Componentes React_
-- [ ] 10-3-A: _Projeto - Movie Cards Library_
+- [x] 10-1-B: _'Hello, world' no React_
+- [ ] 10-2-B: _Componentes React_
+- [ ] 10-3-B: _Projeto - Movie Cards Library_
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
