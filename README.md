@@ -69,18 +69,50 @@ O currículo da Trybe foi desenhado em parceria com as maiores empresas de tecno
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
-- [ ] 8-6: _Projeto - Zoo functions_
+- [x] 8-5: _JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais_
+- [x] 8-6: _Projeto - Zoo functions_
 
 ##### Bloco 9: JavaScript Assíncrono e Promises
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _Projeto - Carrinho de Compras_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _Projeto - Carrinho de Compras_
 
-##### Bloco 10: Testes automatizados com Jest
+##### Bloco 10-A: Testes automatizados com Jest
 
-- [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes Assíncronos_
-- [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _Projeto - Jest Assíncrono e Mocking_
+- [x] 10-1-A: _Primeiros passos no Jest_
+- [x] 10-2-A: _Jest - Testes Assíncronos_
+- [x] 10-3-A: _Jest - Simulando comportamentos_
+- [x] 10-4-A: _Projeto - Jest Assíncrono e Mocking_
+
+## Módulo 2 - Desenvolvimento Front-end :
+
+##### Bloco 10-B: Introdução à React
+
+- [x] 10-1-B: _'Hello, world' no React_
+- [ ] 10-2-B: _Componentes React_
+- [ ] 10-3-B: _Projeto - Movie Cards Library_
+
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+
+- [ ] 11-1: _Componentes com estado e eventos_
+- [ ] 11-2: _Formulários no React_
+- [ ] 11-3: _Projeto - Tryunfo_
+
+##### Bloco 12: Ciclo de Vida de Componentes e React Router
+
+- [ ] 12-1: _Ciclo de vida de componentes_
+- [ ] 12-2: _React Router_
+- [ ] 12-3: _Projeto - TrybeTunes_
+
+##### Bloco 13: Metodologias Ágeis
+
+- [ ] 13-1: _Metodologias Ágeis_
+- [ ] 13-2: _Projeto - Frontend Online Store_
+
+##### Bloco 14: Testes automatizados com React Testing Library
+
+- [ ] 14-1: _RTL - Primeiros passos_
+- [ ] 14-2: _RTL - Mocks e Inputs_
+- [ ] 14-3: _RTL - Testando React Router_
+- [ ] 14-4: _Projeto - Testes em React_
