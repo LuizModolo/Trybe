@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedex {
+  border: solid 2px black;
+  border-radius: 20px;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokemon {
+  display: flex;
+  border: solid 2px black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 24%;
+  margin: 5px;
+}
